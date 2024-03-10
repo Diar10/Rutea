@@ -1,0 +1,263 @@
+* {
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    height: 145vh;
+    position: relative;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+        url(/imagenes/background.jpg);
+    background-position: center center;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    position:fixed ;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 100px;
+    z-index: 1;
+}
+
+.logo {
+    height: 50px;
+}
+.menu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #F2F2F2;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.item a:hover{
+    color: #FF2258;
+}
+
+.item:hover {
+    color: #FF2258;
+}
+
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+label{
+    cursor: pointer;
+    display: none;
+}
+
+.btn{
+    padding: 10px 24px;
+    border-radius: 30px;
+    background-color: #FF2258;
+    color: #F2F2F2;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #C10B38;
+}
+
+@media(max-width:991px) {
+    .menu{
+        padding: 30px;
+        margin: 0;
+    }
+    label {
+        display: initial;
+    }
+    .menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+    .item {
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .btn {
+        width: 100px;
+    }
+
+    #menu:checked ~ .menu {
+        display: initial;
+    }
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.contenedor {
+    padding-bottom:0;
+	width: 90%;
+	max-width: 1200px;
+	margin:0 auto;
+	padding: 40px 0;
+    display: grid;
+    grid-template-columns: 3fr;
+   
+
+	
+}
+.contenedor-masvisitados{
+    margin: 30px;
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    gap: 15px;
+    position: relative;
+    z-index: 0;
+}
+.contenedor-parques{
+    margin: 30px;
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    gap: 15px;
+}
+.contenedor-zoologicos{
+    margin: 30px;
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    gap: 15px;
+}
+.contenedor-pareja{
+    margin: 30px;
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    gap: 15px;
+}
+.contenedor-bosques{
+    margin: 30px;
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    gap: 15px;
+}
+.contenedor-arqueologicos{
+    margin: 30px;
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    gap: 15px;
+}
+.contenedor-museos{
+    margin: 30px;
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    gap: 15px;
+}
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    font-family: 'poppins', sans-serif;
+    color: #F2F2F2;
+    cursor: pointer;
+	transition: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card .textos:hover{
+    color: rgba(255, 0, 0, 0.842);
+}
+.card .textos {
+	height: 100%;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	
+}
+h1 {
+    font-size: 2rem;
+    line-height: 1.3em;
+    color: #F2F2F2;
+}
+
+
+
+.info{
+    z-index: 1;
+    width: 100%;
+    max-width: 550px;
+    text-align: center;
+}
+.info h1{
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.info p{
+    color: #fff;
+   line-height: 1.7;
+   margin-bottom: 30px;
+}
+
+.titulo-banner {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color:white;
+    font-size: 100px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.texto-banner {
+    color:white;
+    font-size: 45px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 150px;
+   
+}
+
+
+ .presentacion {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+    background-color: white;
+    text-align: center;
+   
+    margin: 20px;
+
+ }    
+.titulo-lugares{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background-color: antiquewhite;
+    margin: 50px 0px 30px 0px;
+
+}

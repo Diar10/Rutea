@@ -1,0 +1,254 @@
+* {
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.contenedor{
+    padding-bottom:0;
+	width: 100%;
+
+    display: grid;
+    grid-template-columns: 3fr;
+    background-color: #242529;
+}
+
+header{
+    width: 100%;
+    position:fixed ;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 100px;
+    z-index: 1;
+    background-color: #242529;
+}
+
+
+
+.logo {
+    height: 50px;
+}
+.menu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.item a:hover{
+    color: #FF2258;
+}
+
+.item:hover {
+    color: #FF2258;
+}
+
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+    visibility: hidden;
+}
+#header label{
+    cursor: pointer;
+    display: none;
+}
+
+.btn{
+    padding: 10px 24px;
+    border-radius: 30px;
+    background-color: #FF2258;
+    color: #F2F2F2;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #C10B38;
+}
+
+@media(max-width:850px) {
+
+    .menu-icono{
+        visibility: visible;
+    }
+
+    .menu{
+        padding: 30px;
+        margin: 0;
+    }
+    label {
+        display: initial;
+    }
+    .menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+    .item {
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .btn {
+        width: 100px;
+    }
+
+    #menu:checked ~ .menu {
+        display: initial;
+    }
+
+
+}
+
+/*
+
+header{
+    width: 100%;
+    position:fixed ;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 100px;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.logo {
+    height: 50px;
+}
+.menu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #F2F2F2;
+}
+.item:hover {
+    color: #FF2258;
+}
+
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+label{
+    cursor: pointer;
+    display: none;
+}
+
+.btn{
+    padding: 10px 24px;
+    border-radius: 30px;
+    background-color: #FF2258;
+    color: #F2F2F2;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #C10B38;
+}
+*/
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color:rgb(247, 244, 242)
+}
+
+section h1{   
+    padding: 20px;
+    font-size: 60px;
+    font-family: fantasy; 
+}
+
+#contenedor23{
+    background-image: url(../imagenes/museo-de-la-nacion.jpg);
+    padding: 120px;
+    color: rgb(63, 60, 61);  
+    background-position: center center;
+    text-align: center;
+    margin-top: 100px;    
+}
+
+.titulos{
+    text-align: left;
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(63, 63, 158)
+}
+
+p{
+    text-align: justify;
+    padding: 10px;  
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+ul li{
+    text-align: justify;
+    padding: 2px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 10px;
+}
+
+#imagenes{
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.imagen1{
+    width: 600px;
+    height: 350px;   
+    border-radius: 5px; 
+}
+
+footer{
+    background-color: rgba(0,0,0,0.9);
+}
+
+#final p{
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy; 
+    color: #eb0c43;
+}

@@ -1,0 +1,187 @@
+.logo img{
+    width: 130px;
+    height: 130px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.barramenu ul li{
+    float: right;
+    margin: 5px;
+    color: red;
+    width: 10%;    
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+section figure figcaption {
+    margin: 5px;
+    text-align: center;
+}
+
+.titulos{
+    text-align: center;
+    padding: 40px;
+    color: red;
+    font-size: 40px;
+}
+
+#masvisitados{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+#masvisitados figure{
+    text-align: justify;
+    font-size: 14px;
+    font-family: Verdana;
+    margin: 20px 30px;
+    border: 3px solid gray;
+    padding: 20px;
+}
+
+figure img{
+    transition: all 1000ms ease-in-out;
+}
+
+figure img:hover{
+    transform: scale(1.15); 
+}
+
+#zoologicos{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+#zoologicos figure{
+    text-align: justify;
+    font-size: 14px;
+    font-family: Verdana;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 0px gray, 0px 2px 5px 0px black;   
+}
+
+#parques{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+#parques figure{
+    text-align: justify;
+    font-size: 14px;
+    font-family: Verdana;
+    margin: 20px 30px;
+    border: 3px solid gray;
+    padding: 20px;
+}
+
+#bosques{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+#bosques figure{
+    text-align: justify;
+    font-size: 14px;
+    font-family: Verdana;
+    margin: 20px 30px;
+    border: 3px solid gray;
+    padding: 30px;
+}
+
+#parejas{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+#parejas figure{
+    text-align: justify;
+    font-size: 14px;
+    font-family: Verdana;
+    margin: 20px 30px;
+    border: 3px solid gray;
+    padding: 30px;
+}
+
+#arqueologicos{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+#arqueologicos figure{
+    text-align: justify;
+    font-size: 14px;
+    font-family: Verdana;
+    margin: 20px 30px;
+    border: 3px solid gray;
+    padding: 30px;
+}
+
+#museos{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+#museos figure{
+    text-align: justify;
+    font-size: 14px;
+    font-family: Verdana;
+    margin: 20px 30px;
+    border: 3px solid gray;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
